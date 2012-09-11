@@ -1,0 +1,29 @@
+<style>
+    body {
+        min-width:300px;
+        min-height:180px;
+        overflow-x:hidden;
+    }
+    .map {
+        position: absolute;
+        z-index: 0;
+        top: 0px;
+        left: 0px;
+    }
+    .msk {
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        left: 0px;
+    }
+    .rain {
+        position: absolute;
+        z-index: 3;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+<img class="map" src="http://tokyo-ame.jwa.or.jp/map/map000.jpg" width="320px" />
+<img class="msk" src="http://tokyo-ame.jwa.or.jp/map/msk000.png" width="320px" />
+<a href="http://tokyo-ame.jwa.or.jp/" target="_blank"><img class="rain" id="rain" width="320px" /></a>
+<script type="text/javascript" src="popup.js"></script>

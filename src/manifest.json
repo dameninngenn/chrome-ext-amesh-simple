@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "amesh-simple",
+  "version": "0.1.0",
+  "description": "amesh-simple",
+  "browser_action": {
+    "default_icon": "amesh128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "amesh128.png",
+    "48": "amesh48.png"
+  }
+}
