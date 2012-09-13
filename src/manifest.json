@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "amesh-simple",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "amesh-simple",
   "browser_action": {
     "default_icon": "amesh128.png",
@@ -10,5 +10,11 @@
   "icons": {
     "128": "amesh128.png",
     "48": "amesh48.png"
+  },
+  "permissions": [
+    "http://tokyo-ame.jwa.or.jp/*"
+  ],
+  "background": {
+    "page": "background.html"
   }
 }
