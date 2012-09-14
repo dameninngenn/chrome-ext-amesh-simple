@@ -13,8 +13,8 @@ function constants() {
         ICON_MIDDLE      : 'amesh48_middle.png',
         ICON_HIGH        : 'amesh48_high.png',
         THRESHOLD_LOW    : 300,
-        THRESHOLD_MIDDLE : 1000,
-        THRESHOLD_HIGH   : 10000,
+        THRESHOLD_MIDDLE : 5000,
+        THRESHOLD_HIGH   : 15000,
         TIMEOUT_MSEC     : 300000
     };
     return constants;
