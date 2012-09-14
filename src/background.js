@@ -34,6 +34,7 @@ function rainWatcher() {
         chrome.browserAction.setIcon({
             path: icon_path
         });
+        context.clearRect(0, 0, c.CANVAS_W, c.CANVAS_H);
     }
     setTimeout(function(){
         rainWatcher()
