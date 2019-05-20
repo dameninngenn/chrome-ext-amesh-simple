@@ -1,5 +1,5 @@
 utils = {
-    IMAGE_BASE_URL: 'http://tokyo-ame.jwa.or.jp/mesh/000/',
+    IMAGE_BASE_URL: 'https://tokyo-ame.jwa.or.jp/mesh/000/',
     normalize: function (num) {
         return ( parseInt(num) < 10 ) ? "0" + num : num;
     },

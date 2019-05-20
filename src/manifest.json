@@ -12,7 +12,7 @@
     "48": "amesh48.png"
   },
   "permissions": [
-    "http://tokyo-ame.jwa.or.jp/*"
+    "https://tokyo-ame.jwa.or.jp/*"
   ],
   "background": {
     "page": "background.html"
