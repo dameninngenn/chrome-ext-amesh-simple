@@ -1,30 +1,33 @@
-<style>
-    body {
-        min-width:300px;
-        min-height:180px;
-        overflow-x:hidden;
+<<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { margin: 0; padding: 0; }
+    img {
+      display: block;
+      width: 320px;
     }
-    .map {
-        position: absolute;
-        z-index: 0;
-        top: 0px;
-        left: 0px;
+    .container {
+      position: relative;
+      width: 320px;
+      height: 199px;
     }
-    .msk {
-        position: absolute;
-        z-index: 3;
-        top: 0px;
-        left: 0px;
+    .map, .rain, .msk {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
-    .rain {
-        position: absolute;
-        z-index: 2;
-        top: 0px;
-        left: 0px;
-    }
-</style>
-<img class="map" src="https://tokyo-ame.jwa.or.jp/map/map000.jpg" width="320px" />
-<img class="rain" id="rain" width="320px" />
-<a href="https://tokyo-ame.jwa.or.jp/" target="_blank"><img class="msk" src="https://tokyo-ame.jwa.or.jp/map/msk000.png" width="320px" /></a>
-<script type="text/javascript" src="utils.js"></script>
-<script type="text/javascript" src="popup.js"></script>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="map" src="https://tokyo-ame.jwa.or.jp/map/map000.jpg" />
+    <img class="rain" id="rain" />
+    <a href="https://tokyo-ame.jwa.or.jp/" target="_blank">
+      <img class="msk" src="https://tokyo-ame.jwa.or.jp/map/msk000.png" />
+    </a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
