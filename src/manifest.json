@@ -1,20 +1,22 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "amesh-simple",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "amesh-simple",
-  "browser_action": {
-    "default_icon": "amesh128.png",
+  "action": {
+    "default_icon": "icons/amesh128.png",
     "default_popup": "popup.html"
   },
   "icons": {
-    "128": "amesh128.png",
-    "48": "amesh48.png"
+    "128": "icons/amesh128.png",
+    "48": "icons/amesh48.png"
   },
-  "permissions": [
+  "permissions": ["alarms"],
+  "optional_permissions": ["offscreen"],
+  "host_permissions": [
     "https://tokyo-ame.jwa.or.jp/*"
   ],
   "background": {
-    "page": "background.html"
+    "service_worker": "service_worker.js"
   }
 }
